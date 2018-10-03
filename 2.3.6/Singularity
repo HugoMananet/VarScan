@@ -1,0 +1,30 @@
+#!/bin/bash
+#
+# Hugo Mananet 
+# 03/09/2018: initial version
+
+Bootstrap: docker
+
+From: phusion/baseimage:0.11
+
+
+%label
+	MAINTAINER Hugo Mananet
+	VERSION 2.3.6
+
+
+%environment
+	LC_ALL=en_US.UTF-8
+	LANGUAGE=en_US.UTF-8
+	
+%post
+	apt-get -y update
+	apt-get -y install build-essential wget openjdk-8-jre 
+	locale-gen en_US.UTF-8
+	export LANGUAGE=en_US.UTF-8
+	export LANG=en_US.UTF-8
+	export LC_ALL=en_US.UTF-8
+	locale-gen en_US.UTF-8
+	dpkg-reconfigure locales
+
+	mkdir -p /opt/varscan_2.3.6
