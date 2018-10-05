@@ -18,7 +18,7 @@ From: phusion/baseimage:0.11
 	mkdir -p /opt/varscan_2.3.6
 	wget http://netcologne.dl.sourceforge.net/project/varscan/VarScan.v2.3.6.jar && mv VarScan.v2.3.6.jar /opt/varscan_2.3.6/VarScan.jar
 
-%environment
-	export LANGUAGE=fr_FR.UTF-8
-	export LANG=fr_FR.UTF-8
-	export LC_ALL=fr_FR.UTF-8
+#%environment
+#	export LANGUAGE=fr_FR.UTF-8
+#	export LANG=fr_FR.UTF-8
+#	export LC_ALL=fr_FR.UTF-8
