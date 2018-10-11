@@ -1,0 +1,11 @@
+LICENSE
+VarScan 2 is licensed under the Non-Profit Open Software License 3.0 (NPOSL-3.0)
+
+CITING VARSCAN
+
+VarScan2.3.6
+
+Koboldt DC, Zhang Q, Larson DE, Shen D, McLellan MD, Lin L, Miller CA, Mardis ER, Ding L, Wilson RK.
+VarScan 2: somatic mutation and copy number alteration discovery in cancer by exome sequencing.
+Genome Res. 2012 Mar;22(3):568-76. doi: 10.1101/gr.129684.111.
+http://varscan.sourceforge.net
