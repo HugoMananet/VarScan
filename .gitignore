@@ -1,3 +1,4 @@
 # singularity images #
 ######################
 *.simg
+*.sif
